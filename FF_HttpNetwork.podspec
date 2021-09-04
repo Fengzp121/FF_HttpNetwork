@@ -24,5 +24,6 @@ Pod::Spec.new do |spec|
   
   spec.source_files = "FF_HttpNetwork/FF_HttpNetwork/**/*.{h,m}"
   
-  spec.dependency = 'AFNetworking','4.0.1'
+  spec.dependency 'AFNetworking', '4.0.1'
+  
 end
