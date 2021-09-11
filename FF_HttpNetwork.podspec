@@ -2,7 +2,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = 'FF_HttpNetwork'
 
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
 
   spec.summary      = 'Http网络请求基础模块'
 

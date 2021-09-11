@@ -183,9 +183,9 @@ NSString *const YTKRequestValidationErrorDomain = @"com.yuantiku.request.validat
 }
 
 - (NSDictionary *)requestHeaderFieldValueDictionary {
-    return _userInfo;
+//    return _userInfo;
      //return @{@"token":@"eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJzdWIiOiIxNiIsImlhdCI6MTU2NTgzNzY4MSwiZXhwIjoxNTY2NDQyNDgxfQ.B2v9M0NnziJOjEEaoXg8U8GgCJkZDm1RT760gvUyRZ07vK8F1Cgpvth4kkB-yFYaIGs9asXMmSzRAcrj7Mq-Vg"};
-    //return nil;
+    return nil;
 }
 
 
@@ -203,11 +203,12 @@ NSString *const YTKRequestValidationErrorDomain = @"com.yuantiku.request.validat
 }
 
 - (id)jsonValidator {
-    return @{
-             @"code": [NSNumber class],
-             @"data": [NSString class],
-             @"msg" : [NSString class]
-             };
+//    return @{
+//             @"code": [NSNumber class],
+//             @"data": [NSString class],
+//             @"msg" : [NSString class]
+//             };
+    return nil;
 }
 
 - (BOOL)statusCodeValidator {

@@ -299,16 +299,16 @@
         }
     }
     //验证自定义错误
-    int code = [request.responseObject[@"code"] intValue];
-    if(code){
-        result = [YTKNetworkUtils validateCustomCode:code];
-        if (!result) {
-            if (error) {
-                *error = [NSError errorWithDomain:YTKRequestValidationErrorDomain code:YTKRequestValidationErrorInvalidCustomCode userInfo:@{NSLocalizedDescriptionKey:@"Invalid Custom Error"}];
-            }
-            return result;
-        }
-    }
+//    int code = [request.responseObject[@"code"] intValue];
+//    if(code){
+//        result = [YTKNetworkUtils validateCustomCode:code];
+//        if (!result) {
+//            if (error) {
+//                *error = [NSError errorWithDomain:YTKRequestValidationErrorDomain code:YTKRequestValidationErrorInvalidCustomCode userInfo:@{NSLocalizedDescriptionKey:@"Invalid Custom Error"}];
+//            }
+//            return result;
+//        }
+//    }
     return YES;
 }
 
